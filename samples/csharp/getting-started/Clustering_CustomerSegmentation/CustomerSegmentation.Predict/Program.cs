@@ -14,7 +14,7 @@ namespace CustomerSegmentation
             var assetsRelativePath = @"../../../assets";
             string assetsPath = GetAbsolutePath(assetsRelativePath);
 
-            var pivotCsv = Path.Combine(assetsPath, "inputs", "pivot.csv");
+            var pivotCsv = Path.Combine(assetsPath, "inputs", "customer.csv");
             var modelPath = Path.Combine(assetsPath, "inputs", "retailClustering.zip");
             var plotSvg = Path.Combine(assetsPath, "outputs", "customerSegmentation.svg");
             var plotCsv = Path.Combine(assetsPath, "outputs", "customerSegmentation.csv");
